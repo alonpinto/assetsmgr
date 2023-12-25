@@ -12,7 +12,7 @@ export const getMockAssets = (size: number): IAsset[] => {
   const assets: IAsset[] = [];
   for (let i = 0; i < size; i++)
     assets.push({
-      id: i,
+      id: i++,
       city: faker.location.city(),
       address: faker.location.streetAddress(),
       rooms: faker.number.int({ min: 1, max: 12 }),
