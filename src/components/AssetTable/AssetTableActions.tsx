@@ -74,11 +74,11 @@ const AssetTableActions = ({ row }: AssetTableActionsProps) => {
             Edit
           </DropdownMenuItem>
           <DropdownMenuSeparator />
-          <DropdownMenuItem
+          {/* <DropdownMenuItem
             onSelect={() => setShowConfirmAssetDeleteDialog(true)}
           >
             Clone
-          </DropdownMenuItem>
+          </DropdownMenuItem> */}
           <DropdownMenuSeparator />
           <DropdownMenuItem
             onSelect={() => setShowConfirmAssetDeleteDialog(true)}
