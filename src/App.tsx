@@ -1,8 +1,12 @@
 import "./App.css";
-import AssetList from "./components/AssetList/AssetList";
+import ProductCarousel from "./components/ProductCarousel/ProductCarousel";
 
 function App() {
-  return <AssetList />;
+  return (
+    <>
+      <ProductCarousel options={{}} />;
+    </>
+  );
 }
 
 export default App;

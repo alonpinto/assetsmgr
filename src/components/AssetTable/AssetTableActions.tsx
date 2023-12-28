@@ -79,7 +79,7 @@ const AssetTableActions = ({ row }: AssetTableActionsProps) => {
           >
             Clone
           </DropdownMenuItem> */}
-          <DropdownMenuSeparator />
+          {/* <DropdownMenuSeparator /> */}
           <DropdownMenuItem
             onSelect={() => setShowConfirmAssetDeleteDialog(true)}
             className="text-red-600"
